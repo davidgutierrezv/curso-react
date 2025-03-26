@@ -317,11 +317,50 @@ function Boton(props: { texto: string }) {
 ```
 
 ### 🔁 8. Hooks (breve mención)
-useState, useEffect, etc.
 
-Permiten manejar estado y ciclo de vida.
+Los Hooks son funciones especiales en React que permiten manejar el estado y el ciclo de vida de los componentes funcionales. Los dos Hooks más comunes son:
 
-Se verá en profundidad más adelante.
+- **useState**: Permite agregar estado local a un componente funcional.
+- **useEffect**: Permite realizar efectos secundarios en componentes funcionales, como suscribirse a datos o realizar cambios en el DOM.
+
+#### Ejemplo de useState
+
+```jsx
+import React, { useState } from 'react';
+
+function Contador() {
+  const [contador, setContador] = useState(0);
+
+  return (
+    <div>
+      <p>Has hecho clic {contador} veces</p>
+      <button onClick={() => setContador(contador + 1)}>Haz clic</button>
+    </div>
+  );
+}
+```
+
+#### Ejemplo de useEffect
+
+```jsx
+import React, { useEffect, useState } from 'react';
+
+function Temporizador() {
+  const [segundos, setSegundos] = useState(0);
+
+  useEffect(() => {
+    const intervalo = setInterval(() => {
+      setSegundos(s => s + 1);
+    }, 1000);
+
+    return () => clearInterval(intervalo);
+  }, []);
+
+  return <div>Segundos: {segundos}</div>;
+}
+```
+
+Los Hooks permiten escribir componentes funcionales más potentes y reutilizables. Se verán en profundidad más adelante en el curso.
 
 ### 🛠️ 9. Configuración básica del proyecto con Vite + TypeScript
 ```bash
@@ -338,12 +377,12 @@ Cómo se monta en main.tsx.
 
 ### 📚 10. Ejercicio para la clase
 Objetivo: Aplicar los conceptos sin JSX.
-
-Crear un botón con React.createElement que al hacer clic muestre un alert.
-
-Luego, escribir el mismo botón usando JSX.
+- Crear un botón con React.createElement que al hacer clic muestre un alert.
+- Luego, escribir el mismo botón usando JSX.
 
 Comentar las diferencias y ventajas.
+
+Para más detalles, consulta el [ejercicio completo](./content/ejercicio-sin-jsx.md).
 
 ### 🧠 Para la próxima clase:
 - JSX a fondo.
