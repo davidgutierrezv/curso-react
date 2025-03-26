@@ -6,14 +6,20 @@ React es una librería de JavaScript para construir interfaces de usuario (UI), 
 
 - Se basa en un enfoque declarativo y componente basado.
 - React no es un framework, no impone estructura de carpetas, rutas, ni sistema de estados global.
-- Renderiza en el DOM virtual, luego lo reconcilia con el DOM real para optimizar la actualización de la UI.
+- Renderiza en el DOM virtual, luego lo reconcilia con el [DOM](./content/dom.md) real para optimizar la actualización de la UI.
+
+#### ¿Por qué React?:
+- **Escalabilidad**: Permite construir aplicaciones que pueden crecer en tamaño y complejidad sin perder rendimiento.
+- **Reutilización**: Los componentes pueden ser reutilizados en diferentes partes de la aplicación, lo que reduce el código duplicado y facilita el mantenimiento.
+- **Rendimiento (gracias al Virtual DOM)**: React utiliza un DOM virtual para minimizar las operaciones costosas en el DOM real, mejorando así el rendimiento de la aplicación.
+- **Ecosistema y comunidad**: React cuenta con una gran comunidad de desarrolladores y un ecosistema robusto de herramientas y bibliotecas que facilitan el desarrollo.
 
 ## ⚡ ¿Qué es Vite?
 
 Vite es un bundler y dev server de última generación para aplicaciones modernas (usando ES Modules).
 
 - Desarrollado por Evan You (creador de Vue)
-- Utiliza esbuild (escrito en Go) para ser extremadamente rápido
+- Utiliza [esbuild](./content/esbuild.md) (escrito en Go) para ser extremadamente rápido
 
 ### En modo desarrollo:
 - No bundlea todo el proyecto
@@ -26,7 +32,7 @@ Vite es un bundler y dev server de última generación para aplicaciones moderna
 
 Vite actúa como el builder y dev server de una aplicación React.
 
-- Usa plugins para interpretar JSX, TypeScript y más.
+- Usa plugins para interpretar [JSX](./content/jsx.md), [TypeScript](./content/typescript.md) y más.
 - Se integra con React usando @vitejs/plugin-react que habilita soporte para JSX, Fast Refresh, y más.
 - Proporciona una experiencia muy rápida para desarrollo con recarga instantánea y sin bundles pesados.
 
@@ -142,16 +148,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 )
 ```
 App.tsx: componente principal del proyecto.
-
-## 🛠 Recomendaciones para tus estudiantes
-
-> Antes de comenzar con componentes, estado o hooks, asegúrate que comprendan:
-
-1. Qué hace cada archivo
-2. Cómo se carga React en el navegador
-3. Por qué Vite es tan rápido (no bundlea en dev)
-4. Qué significa `type="module"` en el HTML
-5. Qué hace el script dev
 
 ### 1. Qué hace cada archivo
 
@@ -305,7 +301,7 @@ Es el proceso de convertir código moderno (JSX, ES6+) a código que entienden l
 
 Herramientas: [Babel](./content/babel.md), [TypeScript](./content/typescript.md), [SWC](./content/swc.md) (usado en Vite).
 
-Mencionar que Vite utiliza ES Modules y una transpilación mucho más rápida (mediante esbuild/SWC).
+Mencionar que Vite utiliza ES Modules y una transpilación mucho más rápida (mediante [esbuild](./content/esbuild.md)/[SWC](./content/swc.md)).
 
 ### 🧩 7. ¿Qué es un componente?
 Función pura que retorna JSX.
@@ -350,11 +346,9 @@ Luego, escribir el mismo botón usando JSX.
 Comentar las diferencias y ventajas.
 
 ### 🧠 Para la próxima clase:
-JSX a fondo.
-
-Props y composición de componentes.
-
-Introducción a useState.
+- JSX a fondo.
+- Props y composición de componentes.
+- Introducción a useState.
 
 
 
