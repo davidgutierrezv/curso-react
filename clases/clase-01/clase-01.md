@@ -6,7 +6,7 @@ React es una librería de JavaScript para construir interfaces de usuario (UI), 
 
 - Se basa en un enfoque declarativo y componente basado.
 - React no es un framework, no impone estructura de carpetas, rutas, ni sistema de estados global.
-- Renderiza en el DOM virtual, luego lo reconcilia con el [DOM](../../temas/dom.md) real para optimizar la actualización de la UI.
+- Renderiza en el DOM virtual, luego lo reconcilia con el [DOM](../temas/dom.md) real para optimizar la actualización de la UI.
 
 #### ¿Por qué React?:
 - **Escalabilidad**: Permite construir aplicaciones que pueden crecer en tamaño y complejidad sin perder rendimiento.
@@ -19,7 +19,7 @@ React es una librería de JavaScript para construir interfaces de usuario (UI), 
 Vite es un bundler y dev server de última generación para aplicaciones modernas (usando ES Modules).
 
 - Desarrollado por Evan You (creador de Vue)
-- Utiliza [esbuild](../../temas/esbuild.md) (escrito en Go) para ser extremadamente rápido
+- Utiliza [esbuild](../temas/esbuild.md) (escrito en Go) para ser extremadamente rápido
 
 ### En modo desarrollo:
 - No bundlea todo el proyecto
@@ -32,7 +32,7 @@ Vite es un bundler y dev server de última generación para aplicaciones moderna
 
 Vite actúa como el builder y dev server de una aplicación React.
 
-- Usa plugins para interpretar [JSX](../../temas/jsx.md), [TypeScript](../../temas/typescript.md) y más.
+- Usa plugins para interpretar [JSX](../temas/jsx.md), [TypeScript](../temas/typescript.md) y más.
 - Se integra con React usando @vitejs/plugin-react que habilita soporte para JSX, Fast Refresh, y más.
 - Proporciona una experiencia muy rápida para desarrollo con recarga instantánea y sin bundles pesados.
 
@@ -299,9 +299,9 @@ Es necesario transpilar para que el navegador lo entienda.
 ### ⚙️ 6. ¿Qué es la transpilación?
 Es el proceso de convertir código moderno (JSX, ES6+) a código que entienden los navegadores.
 
-Herramientas: [Babel](../../temas/babel.md), [TypeScript](../../temas/typescript.md), [SWC](../../temas/swc.md) (usado en Vite).
+Herramientas: [Babel](../temas/babel.md), [TypeScript](../temas/typescript.md), [SWC](../temas/swc.md) (usado en Vite).
 
-Mencionar que Vite utiliza ES Modules y una transpilación mucho más rápida (mediante [esbuild](../../temas/esbuild.md)/[SWC](../../temas/swc.md)).
+Mencionar que Vite utiliza ES Modules y una transpilación mucho más rápida (mediante [esbuild](../temas/esbuild.md)/[SWC](../temas/swc.md)).
 
 ### 🧩 7. ¿Qué es un componente?
 Función pura que retorna JSX.
@@ -382,7 +382,7 @@ Objetivo: Aplicar los conceptos sin JSX.
 
 Comentar las diferencias y ventajas.
 
-Para más detalles, consulta el [ejercicio completo](../../temas/ejercicio-sin-jsx.md).
+Para más detalles, consulta el [ejercicio completo](../temas/ejercicio-sin-jsx.md).
 
 ### 🧠 Para la próxima clase:
 - JSX a fondo.
