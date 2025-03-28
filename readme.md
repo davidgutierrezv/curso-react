@@ -24,7 +24,13 @@ Bienvenido al curso de React Básico. Este curso está diseñado para introducir
    - Renderizado condicional de componentes.
    - Ejercicios prácticos.
 
-4. [Conceptos clave](content/)
+4. [Clase 4: Comunicación entre Componentes y Custom Hooks](clase-04/clase-04.md)
+   - Comunicación entre componentes (lifting state).
+   - Creación y uso de custom hooks.
+   - Uso de refs con inputs.
+   - Reglas de los hooks.
+
+5. [Conceptos clave](content/)
    - [JSX](content/jsx.md)
    - [DOM y Virtual DOM](content/dom.md)
    - [Babel](content/babel.md)
@@ -35,9 +41,8 @@ Bienvenido al curso de React Básico. Este curso está diseñado para introducir
 
 ## Próximos temas
 
-- Comunicación entre componentes (lifting state).
-- Custom hooks.
-- Refs y uso con inputs.
-- Reglas de los hooks.
+- Manejo avanzado de estado global.
+- Integración con APIs externas.
+- Testing en React.
 
 ¡Comencemos!
