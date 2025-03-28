@@ -1,10 +1,10 @@
+<img src='./clases/img/logo_curso.png' alt='github' height='200' width='200'>
+
 # Curso de React Básico
 
 Bienvenido al curso de React Básico. Este curso está diseñado para introducirte a los conceptos fundamentales de React, desde la configuración del entorno hasta el uso de hooks avanzados.
 
 ## Índice
-
-<img src='./clases/img/logo_curso.png' alt='github' height='200' width='200'>
 
 | Clase | Título                                      | Temas principales                                                                                   |
 |-------|--------------------------------------------|-----------------------------------------------------------------------------------------------------|
