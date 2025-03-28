@@ -94,7 +94,7 @@ const conEmail = { ...usuario, email: 'david@example.com' };
 
 ## ✨ Spread Operator (`...`)
 
-Sí, el **spread operator** es una característica de **JavaScript**, introducida en ES6.
+**spread operator** es una característica de **JavaScript**, introducida en ES6.
 
 - Sirve para clonar arrays y objetos, y para fusionarlos o modificarlos de forma **inmutable**.
 
