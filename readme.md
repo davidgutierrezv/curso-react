@@ -4,6 +4,8 @@ Bienvenido al curso de React Básico. Este curso está diseñado para introducir
 
 ## Índice
 
+<img src='./clases/img/logo_curso_v2.png' alt='github' height='200' width='200'>
+
 | Clase | Título                                      | Temas principales                                                                                   |
 |-------|--------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1     | [Configuración del entorno y estructura del proyecto](clases/clase-01/clase-01.md) | ¿Qué es React?, ¿Qué es Vite?, Estructura del proyecto, Configuración básica con Vite + TypeScript, Ejercicio: Crear un botón con y sin JSX. |
