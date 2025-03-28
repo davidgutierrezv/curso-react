@@ -4,7 +4,7 @@ Bienvenido al curso de React Básico. Este curso está diseñado para introducir
 
 ## Índice
 
-<img src='./clases/img/logo_curso_v2.png' alt='github' height='200' width='200'>
+<img src='./clases/img/logo_curso.png' alt='github' height='200' width='200'>
 
 | Clase | Título                                      | Temas principales                                                                                   |
 |-------|--------------------------------------------|-----------------------------------------------------------------------------------------------------|
